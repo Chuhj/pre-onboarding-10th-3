@@ -1,5 +1,6 @@
 import TodoItem from '@/components/TodoItem';
 import { TodoType } from '@/types/todo';
+import styles from './styles.module.css';
 
 type TodoListProps = {
   todos: TodoType[];
@@ -14,7 +15,7 @@ const TodoList = ({ todos, setTodos }: TodoListProps) => {
       ))}
     </ul>
   ) : (
-    <div className="empty-list">...</div>
+    <div className={styles.emptyList}>...</div>
   );
 };
 export default TodoList;
