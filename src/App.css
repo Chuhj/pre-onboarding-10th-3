@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.4;
-  color: #444;
+  color: #000;
   background: #fff;
   height: 100vh;
 }
