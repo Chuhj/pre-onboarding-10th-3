@@ -1,41 +1,38 @@
-.formContainer {
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 364px;
+  margin: 0 auto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 0.02em;
+}
+
+.inputContainer {
   width: 100%;
   margin-bottom: 20px;
   display: flex;
-  border-radius: calc(0.5 * 100px);
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
-  justify-content: space-evenly;
+  gap: 8px;
+  box-shadow: 0 0 0 1px #dedede inset;
+  border-radius: 6px;
+  padding: 12px 13px;
+}
+
+.inputContainer:hover {
+  box-shadow: 0 0 0 3px #dedede inset;
+}
+
+.inputContainer:focus-within {
+  box-shadow: 0 0 0 1px #9f9f9f inset;
+}
+
+.searchIcon {
+  color: #7d7d7d;
 }
 
 .inputText {
-  font-size: 1rem;
-  font-weight: 400;
-  width: 85%;
-  padding-right: 5px;
-  padding-left: 10px;
-  border-radius: calc(0.5 * 100px);
-  background-color: transparent;
-}
-
-.inputSubmit {
-  background: transparent;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.inputText,
-.inputSubmit {
-  height: 45px;
+  width: 100%;
   outline: none;
   border: none;
-}
-
-.btnPlus {
-  color: darkcyan;
-  font-size: 20px;
-}
-
-.btn-plus:hover {
-  opacity: 0.5;
 }
