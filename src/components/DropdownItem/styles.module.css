@@ -1,0 +1,17 @@
+.dropdownItem {
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background: #f2f2f2;
+}
+
+.dropdownItem:active {
+  background: #d5f4f1;
+}
+
+.highlight {
+  color: #2bc9ba;
+}
